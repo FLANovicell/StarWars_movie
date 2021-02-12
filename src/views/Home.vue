@@ -9,7 +9,7 @@
         <div
           v-for="person in sortedCharacter"
           class="home__col"
-          :key="person.name"
+          :key="person.created"
         >
           <div class="content">
             <div class="content__row--title">
